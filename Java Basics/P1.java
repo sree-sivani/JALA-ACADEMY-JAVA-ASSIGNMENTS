@@ -3,7 +3,7 @@ class P1 {
         System.out.println("This is a method inside a class.");
     }
     public static void main(String[] args) {
-        Example obj = new Example();  // Creating an object
+        P1 obj = new P1();  // Creating an object
         obj.display();  // Calling method
     }
 }
