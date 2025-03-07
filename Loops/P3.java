@@ -1,6 +1,7 @@
 public class P3 {
     public static void main(String[] args) {
-        for (int i = 1; i <= 20; i++)
-            System.out.println(i + " is " + (i % 2 == 0 ? "Even" : "Odd"));
+        int a = 10, b = 20;
+        System.out.println("a == b: " + (a == b));
+        System.out.println("a != b: " + (a != b));
     }
 }
